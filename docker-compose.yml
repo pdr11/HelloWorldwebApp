@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  helloworld_container:
+    image: pdr11/hellowworld:1.0
+    ports:
+      - 5005:8080
+
+     
+  
